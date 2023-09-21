@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat&family=Smooch+Sans:wght@300&display=swap');
+.page{
+    background-color: violet;
+
+}
+
+.articleCard {
+    font-family: 'Montserrat', sans-serif;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    display:flex;
+    gap:30px;
+    border: 10px solid rgb(50, 41, 99);
+    margin: 40px auto;
+    padding:20px
+}
+.articleCardImage{
+ max-width: 200px;
+ padding:20px right;
+}
+.articleCardImage img{
+    height:auto;
+    width:100%;
+    margin: auto;
+}
+.articleCardContent{
+    justify-content: right;
+    box-sizing:border-box;
+}

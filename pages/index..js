@@ -1,15 +1,17 @@
 
 import Data from "../app/components/data.js"
 import ArticleCard from "../app/components/ArticleCard/index.js"
+import styles from "../app/page.module.css"
 
 export default function Home() {
   const projectName = "Exercise Two"
-  console.log(Data)
+  
   return (
-    <main>
-      <h1>(projectName)</h1>
-        <ArticleCard title="Cool Title" description="Cool Description"/>
-        
+    <main className={styles.page}>
+      <h1>{(projectName)}</h1>
+      {Data.map((article) =>
+        <ArticleCard key={article.id} title={article.title} description={article.blurb}  imgSrc={article.image.url} imageAlt={article.image.alt} date={new Date(article.publishedDate).toDateString()}/>
+        )}
     </main>
   )
 }

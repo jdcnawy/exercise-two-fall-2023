@@ -10,7 +10,7 @@ export default function Home() {
     <main className={styles.page}>
       <h1>{(projectName)}</h1>
       {Data.map((article) =>
-        <ArticleCard key={article.id} title={article.title} description={article.blurb}  imgSrc={article.image.url} imageAlt={article.image.alt} date={new Date(article.publishedDate).toDateString()}/>
+        <ArticleCard id = {article.id} key={article.id} title={article.title} description={article.blurb}  imgSrc={article.image.url} imageAlt={article.image.alt} date={new Date(article.publishedDate).toDateString()}/>
         )}
     </main>
   )

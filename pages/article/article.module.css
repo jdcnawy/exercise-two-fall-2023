@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat&family=Smooch+Sans:wght@300&display=swap');
+
+
+.articleWrapper{
+margin: 0 auto;
+font-size:large;
+}
+
+.articleHeader{ 
+    font-family: 'Montserrat', sans-serif;
+    background-size:cover;
+    background-blend-mode: lighten;
+    padding: 40px 20px 20px;
+}
+
+.articleHeader h1{
+    font-size:50px;
+    font-weight: 400;
+}
+
+.articleHeaderBlurb{
+    font-size: 24px;
+    font-weight:100;
+}
+.articleBody{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0;
+}

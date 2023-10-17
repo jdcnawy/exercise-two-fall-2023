@@ -4,6 +4,8 @@
 .articleWrapper{
 margin: 0 auto;
 font-size:large;
+justify-content: center;
+align-items: center;
 }
 
 .articleHeader{ 
@@ -11,18 +13,26 @@ font-size:large;
     background-size:cover;
     background-blend-mode: lighten;
     padding: 40px 20px 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .articleHeader h1{
     font-size:50px;
     font-weight: 400;
+    justify-content: center;
+    align-items: center;
 }
 
 .articleHeaderBlurb{
     font-size: 24px;
     font-weight:100;
+    justify-content: center;
+    align-items: center;
 }
 .articleBody{
     font-family: 'Montserrat', sans-serif;
     padding: 10px 0;
+    justify-content: center;
+    align-items: center;
 }
